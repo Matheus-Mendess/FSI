@@ -1,0 +1,46 @@
+.botoes-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jogo-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.meu-link {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.meu-link:link {
+    color: blue;
+    background-color: #e9e9ff;
+    border: 2px solid blue;
+}
+
+.meu-link:visited {
+    color: purple;
+    background-color: #f0e9ff;
+    border: 2px solid purple;
+}
+
+.meu-link:hover {
+    color: red;
+    background-color: #fff0f0;
+    border-color: red;
+}
+
+.meu-link:active {
+    color: orange;
+    background-color: #fff8e0;
+    border-color: orange;
+    box-shadow: none;
+}
